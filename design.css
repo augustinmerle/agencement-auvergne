@@ -1,0 +1,137 @@
+body {
+	margin: 0px;
+	padding: 30px;
+	height: 500px;
+	width: 1200px;
+	background-image: url('images/fond-color.jpg');
+	color: white;
+	font-family: arial;
+}
+p {
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	text-decoration: underline;
+	color: white;
+}
+h1 {
+	font-weight:normal;
+	padding: none;
+	margin: none;
+	line-height: 15px;
+}
+
+#menu_gauche {
+	float: left;
+	background-image: url('images/carre.jpg');
+	background-position: right;
+	background-repeat: repeat-y;
+	width: 300px;
+	text-align: right;
+	height: 520px;
+	padding-right: 30px;
+}
+#logo {
+	float:right;
+	width: 200px;
+}
+#logo img {
+	width: 160px;
+}
+#menu {
+	padding-top: 280px;
+	float:right;
+	width: 200px;
+	height: 100px;
+	vertical-align: bottom;
+	
+}
+#menu li{
+	list-style-type: none;
+	line-height: 25px;
+}
+#menu li .selected {
+	color: #444444;
+}
+
+#centre {
+	float: left;
+	padding-left: 30px;
+	width: 800px;
+	height: 500px;
+}
+
+#image_acceuil img{
+	width: 550px;
+	padding-bottom: 10px;
+}
+
+#texte {
+	width: 550px;
+	background-image: url('images/fond-gris.jpg');
+}
+#texte p{
+	padding: 3px 5px;
+	color: white;
+	font-size: small;
+}
+
+.debuttexte {
+	background-image: url('images/fond-gris-haut.jpg');
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	height: 13px;
+	width: 550px;
+}
+.fintexte {
+	background-image: url('images/fond-gris-bas.jpg');
+	background-position: bottom left;
+	background-repeat: no-repeat;
+	height: 13px;
+	width: 550px;
+}
+
+#titre_acceuil {
+	color: white;
+	background-image: url('images/titre.jpg');
+	background-repeat: no-repeat;
+	width: 550px;
+	height: 70px;
+}
+#titre_acceuil h1 {
+	padding-left:  50px;
+	padding-top: 25px;
+	font-family: Arial;
+
+}
+#image_4par4 { 
+	width: 550px;
+	padding-top: 10px ;
+}
+#image_4par4 img{
+		width: 267px;
+		padding-bottom: 5px;
+		border: 0px;		
+}
+.imagegauche {
+	padding-right: 10px;
+}
+.imageseul {
+	width: 550px;
+}
+#contact_logo {
+	width: 550px;
+	height: 167px;
+	background-image: url('images/contact-logo.jpg');
+	background-repeat: no-repeat;
+	color: #444444;
+}
+#contact_logo p {
+	
+	padding-top: 40px;
+	padding-left: 250px;
+}
